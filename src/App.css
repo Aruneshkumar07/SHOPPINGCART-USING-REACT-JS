@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0px;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+h1 {
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  /* padding: 2px; */
+  margin: 10px 160px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li:hover{
+  box-shadow: 20px 20px 60px;
+}
+
+button {
+  background-color: #26a330;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #50ce3a;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+h3 {
+  text-align: right;
+  /* margin-top: 20px; */
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.products ul li {
+  display: flex; 
+   justify-content: space-evenly; 
+}
+
+.products button {
+  background-color: #28a745;
+  margin-left: 10px;
+}
+
+.products button:hover {
+  background-color: #218838;
+}
+#total{
+  margin:100px 400px;
+  margin-top: 150px;
+  box-shadow: 10px 10px 20px;
+  
+}
+#bill{
+  text-align: right;
+  padding-right:50px ;
+  padding-bottom: 10px;
+}
+#total:hover{
+  box-shadow: 20px 20px 60px;
+
+}
+#pro{
+  padding-top: 20px;
+  letter-spacing: 6PX;
+}
+#img1{
+  height: 80px;
+  width: 90px;
+}
